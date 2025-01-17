@@ -16,11 +16,13 @@ using namespace std;
 int main() {
 
 	//Gloabally defnined variables that will be used for this project.
-	double pointsEarned, pointsAttempted, GPA;
+	double pointsEarned, GPA;
 
 	cout << "What is your current grade in the class(in percent): " << endl;
 	cin >> pointsEarned;
 
+	GPA = (pointsEarned / 100) * 4;
 
+	cout << "Your current grade point average for that class is: " << GPA << endl;
 
 }
