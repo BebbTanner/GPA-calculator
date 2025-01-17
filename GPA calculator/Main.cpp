@@ -25,7 +25,7 @@ int main() {
 	
 	cout << arraySize << endl;
 
-	for (arraySize; arraySize <= 5; arraySize++) {
+	for (int i = 0; i <= arraySize; i++) {
 		;
 	}
 
