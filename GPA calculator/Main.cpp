@@ -16,4 +16,10 @@ using namespace std;
 
 int main() {
 
+	//This is an empty string array. This will be what is used to store the name of the classes.
+	//string myArray[arraySize] = {};
+	//int arraySize;
+
+	for
+
 }
