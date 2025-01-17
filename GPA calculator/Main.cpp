@@ -18,4 +18,9 @@ int main() {
 	//Gloabally defnined variables that will be used for this project.
 	double pointsEarned, pointsAttempted, GPA;
 
+	cout << "What is your current grade in the class(in percent): " << endl;
+	cin >> pointsEarned;
+
+
+
 }
