@@ -18,8 +18,15 @@ int main() {
 
 	//This is an empty string array. This will be what is used to store the name of the classes.
 	//string myArray[arraySize] = {};
-	//int arraySize;
+	int arraySize;
 
-	for
+	cout << "How many classes are you taking this semester? " << endl;
+	cin >> arraySize;
+	
+	cout << arraySize << endl;
+
+	for (arraySize; arraySize <= 5; arraySize++) {
+		;
+	}
 
 }
