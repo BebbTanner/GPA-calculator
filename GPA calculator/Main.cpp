@@ -2,12 +2,11 @@
 GPA calculator
 
 input:
-Class name
-	This should be put into an array that can be sized by the user(I think this was a dynmaic array)
-Class grade
-	This should be attached to the items that are stored in the array(Store this as the double data type)
+	total points earned in the class This is just the current grade in points in the class
+	total attempted credits ex math class being with 3 credits
 output:
 GPA of the inputed class grades on the 4.0 scale.
+	GPA formula = points earned / attempted credits
 	Store this as the double data type
 */
 
@@ -18,6 +17,7 @@ int main() {
 
 	//This is an empty string array. This will be what is used to store the name of the classes.
 	//string myArray[arraySize] = {};
+	double GPA;
 	int arraySize;
 
 	cout << "How many classes are you taking this semester? " << endl;
