@@ -15,18 +15,7 @@ using namespace std;
 
 int main() {
 
-	//This is an empty string array. This will be what is used to store the name of the classes.
-	//string myArray[arraySize] = {};
-	double GPA;
-	int arraySize;
-
-	cout << "How many classes are you taking this semester? " << endl;
-	cin >> arraySize;
-	
-	cout << arraySize << endl;
-
-	for (int i = 0; i <= arraySize; i++) {
-		;
-	}
+	//Gloabally defnined variables that will be used for this project.
+	double pointsEarned, pointsAttempted, GPA;
 
 }
